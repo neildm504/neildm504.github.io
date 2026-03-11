@@ -1,8 +1,9 @@
 ---
 title: "Using an incremental rotary encoder reliably"
 layout: single
-classes: wide
 excerpt: "Understanding and implementing rotary encoder logic in ArduinoIDE"
+toc: true
+toc_icon: "arrows-spin"
 
 ---
 
@@ -12,4 +13,5 @@ alongside a joystick module to control the three motors. Keeping with the theme 
 what was going on under the hood of this module, and write code accordingly.
 
 ## KY-040 Rotary Encoder
+This encoder is pretty standard for beginner sets and came in my Elegoo Mega Project Kit. I understood that 
 
