@@ -17,7 +17,7 @@ what was going on under the hood of this module, and wrote custom code.
 
 {% include video id="NMP1R3NpeFI" provider="youtube" %}
 
-This encoder is pretty standard for beginner sets and came in my Elegoo Mega Project Kit. It has 20 increments per rotation and 5 pins. When I first plugged it in I realised that it was a sort of black box to me. With amazing diagrams from [HowToMechatronics](https://howtomechatronics.com/tutorials/arduino/rotary-encoder-works-use-arduino/#h-overview) I was able to test and understand exactly how an encoder tracks rotation through HIGH and LOW signal inputs to the microcontroller.
+This encoder is pretty standard for beginner sets and came in my Elegoo Mega Project Kit. It has 20 increments per rotation and 5 pins. When I first plugged it in, I realized that I really had no clue how to track rotation. There was nothing on the module that gave the arduino "rotated 2 times" or "turning clockwise". There were only HIGH and LOW signals from the CLK and DT pins. With amazing diagrams from [HowToMechatronics](https://howtomechatronics.com/tutorials/arduino/rotary-encoder-works-use-arduino/#h-overview) I was able to test and understand exactly how an encoder tracks rotation.
 
 **5 Pins:**
 - CLK: Channel A "Clock"
