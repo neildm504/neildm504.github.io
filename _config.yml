@@ -56,7 +56,7 @@ plugins:
 
 author:
   name   : "Neil Muralles"
-  avatar : "/assets/images/biopic_real.jpg"
+  avatar : "/assets/images/biopic_real.jpeg"
   bio    : "I am a Junior at LSU for Mechanical Engineering. The goal of this website is to display my current projects as well as log little bits of information I found helpful. I plan to also add previous projects since freshman year of college."
   links:
     - label: "Linkedin"
