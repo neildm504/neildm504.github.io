@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Neil D Muralles
+title: Neil Muralles Engineering
 email: neildm9268@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This website will document my personal projects and log different bits of 
   information I found helpful. (Newly Created, will take some time to add all previous work.)
-minimal_mistakes_skin: air
+minimal_mistakes_skin: dirt
 search: false
 
 # Build settings
@@ -59,30 +59,16 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
-    - label: "Website"
+    - label: "Linkedin"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.linkedin.com/in/neilmuralles/"
+
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "Linkedin"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.linkedin.com/in/neilmuralles/"
 
 defaults:
   # _posts
