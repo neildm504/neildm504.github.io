@@ -1,10 +1,9 @@
 ---
 title: "Using an incremental rotary encoder reliably"
 layout: single
-excerpt: "lorem ipsum"
-header: 
-  image: /assets/images/PB-header.jpeg
-  teaser: /assets/images/PB-thumbnail.jpeg
+excerpt: "Understanding and implementing rotary encoder logic in ArduinoIDE"
+toc: true
+toc_icon: "gear"
 ---
 
 put rotary encoder info here
