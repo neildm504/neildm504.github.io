@@ -2,6 +2,6 @@
 title: "Projects"
 layout: collection
 collection: projects
-permalink /projects/
+permalink: /projects/
 author_profile: false
 ---
