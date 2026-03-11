@@ -8,10 +8,12 @@ toc_icon: "arrows-spin"
 ---
 
 # Why an Encoder?
+
 For the testing stages of the **P.B.** (Prototype Bot), I wanted to use an encoder
 alongside a joystick module to control the three motors. Keeping with the theme of the P.B. project, I research
 what was going on under the hood of this module, and write code accordingly.
 
 ## KY-040 Rotary Encoder
+
 This encoder is pretty standard for beginner sets and came in my Elegoo Mega Project Kit. I understood that 
 
