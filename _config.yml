@@ -104,3 +104,6 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  logs: 
+    output: true
+    permalink: /:collection/:path/
