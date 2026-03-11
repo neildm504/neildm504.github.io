@@ -1,13 +1,13 @@
 ---
-title: "Using an incremental rotary encoder reliably"
+title: "Using an Incremental Rotary Encoder Robustly"
 layout: single
 excerpt: "Understanding and implementing rotary encoder logic in ArduinoIDE"
 toc: true
 toc_icon: "arrows-spin"
-
+author_profile: true
 ---
 
-# Why an Encoder?
+## Why an Encoder?
 
 For the testing stages of the **P.B.** (Prototype Bot), I wanted to use an encoder
 alongside a joystick module to control the three motors. Keeping with the theme of the P.B. project, I research
