@@ -5,6 +5,8 @@ excerpt: "Understanding and implementing rotary encoder logic in ArduinoIDE"
 toc: true
 toc_icon: "arrows-spin"
 author_profile: true
+header:
+  teaser: /assets/images/march2026/rotary_header.jpeg
 ---
 
 # Why an Encoder?
