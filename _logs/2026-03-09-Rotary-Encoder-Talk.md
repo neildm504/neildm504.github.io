@@ -1,5 +1,5 @@
 ---
-title: "Using an Incremental Rotary Encoder Robustly"
+title: "Using an Incremental Rotary Encoder Robustly (w/ Finite State Methods)"
 layout: single
 excerpt: "Understanding and implementing rotary encoder logic in ArduinoIDE"
 toc: true
@@ -38,12 +38,11 @@ In between increments, or tactile "clicks", the neutral state is [1,1] with both
 
 There can be a lot of bouncing between states if the encoder is not turned completely in a short amount of time. The arduino reads that the states are switching values even though an entire increment has not been rotated. The previous method relies on the operator perfectly turning the encoder *exactly* one increment without any hesitation. To counter this, I chose to write a 4-state identifier.
 
-## Robust Reading
+## Robust Readings using Finite State Methods
 
-The 4-state rotation identifier is robust in that it will only detect one increment in rotation if all 4 states found in successful operation are met.
+The 4-state rotation identifier is robust in that it will only detect one increment in rotation if all 4 states found in successful operation are met. Regardless of direction, there are **only** 4 possible states of CLK and DT [CLK, DT]
 
 States (CCW):
-
 [1,1]
 
 [0,1]
