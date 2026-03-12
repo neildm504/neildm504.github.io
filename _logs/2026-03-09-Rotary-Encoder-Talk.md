@@ -97,11 +97,12 @@ void encoder(){
       Serial.println(encoder_loc);
     }
   }
-
 }
+'''
 
 # Closing Remarks
-overall
+
+Although it may seem like I delved too deep into how this little module works, I really enjoyed expanding my understanding of sensors in general. The code works amazingly, and I'm excited to see how it aids me in controlling my P.B. robot.
 
 
 
