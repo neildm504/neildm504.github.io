@@ -14,25 +14,31 @@ feature_row:
 feature_row2:
 
 feature_row3:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/march2026/rotary_header.jpeg
-    
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+  - image_path: assets/images/PB-thumbnail.jpeg
+    alt: "robotic arm"
+    title: "Projects"
+    excerpt: "Current and past projects *(will be updated)*"
+    url: /projects/
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: /assets/images/march2026/rotary_header.jpeg
+    alt: "rotary encoder"
+    title: "Update Logs"
+    excerpt: "These are different snippets of useful information that progressed my projects."
+    url: /logs/
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/biopic_real.jpeg
+    alt: "a photo of me"
+    title: "About me"
+    excerpt: "Read about me and my goals!"
+    url: /about/
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 # testing testing 
 
-## testing again
 
+{% include feature_row id="feature_row3" %}
 
