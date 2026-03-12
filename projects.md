@@ -1,6 +1,7 @@
 ---
 title: Projects
 layout: collection
+classes: wide
 collection: projects
 permalink: /projects/
 author_profile: true
