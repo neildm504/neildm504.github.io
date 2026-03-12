@@ -37,8 +37,6 @@ feature_row3:
     btn_class: "btn--primary"
 ---
 
-# Welcome!
-
 Welcome to my personal website. I am a Junior at Louisiana State University in Mechanical Engineering. My current interests in M.E. include controls and mechatronics, but I am still gaining experience in all aspects of the field.
 
 I've created this site on 03/10/2026 and plan to continue updating it as I progress with coursework and my projects.
