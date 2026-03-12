@@ -1,7 +1,7 @@
 ---
-title: "Using an Incremental Rotary Encoder Robustly (w/ Finite State Methods)"
+title: "Robust Rotary Encoder Logic (FSM)"
 layout: single
-excerpt: "Understanding and implementing rotary encoder logic in ArduinoIDE"
+excerpt: "Using an Incremental Rotary Encoder Robustly w/ Finite State Methods"
 toc: true
 toc_icon: "arrows-spin"
 author_profile: true
