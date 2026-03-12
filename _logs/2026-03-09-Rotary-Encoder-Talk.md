@@ -54,7 +54,7 @@ States (CCW):
 
 These states can be seen in the video above. For clockwise rotation the states just go in the opposite order. The code I wrote is below, and successfully identifies both clockwise and counterclockwise rotation. *Note that in order for the arduino to miss an encoder step, the user would have to rotate it well over 10000rpm*
 
-'''cpp
+```cpp
 void encoder(){
   clk_cur = digitalRead(clkPin);
   dt_cur = digitalRead(dtPin);
@@ -98,7 +98,7 @@ void encoder(){
     }
   }
 }
-'''
+
 
 # Closing Remarks
 
