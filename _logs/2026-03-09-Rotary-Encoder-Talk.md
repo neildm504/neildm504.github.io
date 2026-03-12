@@ -19,12 +19,16 @@ what was going on under the hood of this module, and wrote custom code.
 
 This encoder is pretty standard for beginner sets and came in my Elegoo Mega Project Kit. It has 20 increments per rotation and 5 pins. When I first plugged it in, I realized that I really had no clue how to track rotation. There was nothing on the module that gave the arduino "rotated 2 times" or "turning clockwise". There were only HIGH and LOW signals from the CLK and DT pins. With amazing diagrams from [HowToMechatronics](https://howtomechatronics.com/tutorials/arduino/rotary-encoder-works-use-arduino/#h-overview) I was able to test and understand exactly how an encoder tracks rotation.
 
+## How it Works
+
 **5 Pins:**
 - CLK: Channel A "Clock"
 - DT: Channel B "Data"
 - SW: Switch (not used here)
 - VCC: +5V
 - GND: Ground
+
+The VCC and GND power this active device and will interact with the CLK and DT pins. There is a disk that rotates when you turn the knob on the encoder; this disk has conductive contact zones along its circumference as well as nonconductive portions. The CLK pin and DT pin are both contacts that touch both the conductive and nonconductive parts, with the DT pin being 90 degrees out of phase with the CLK pin
 
 
 
