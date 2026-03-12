@@ -7,7 +7,7 @@ toc_icon: "arrows-spin"
 author_profile: true
 ---
 
-## Why an Encoder?
+# Why an Encoder?
 
 For the testing stages of the **P.B.** (Prototype Bot), I wanted to use an encoder
 alongside a joystick module to control the three motors. Keeping with the theme of the P.B. project, I researched
@@ -42,11 +42,68 @@ There can be a lot of bouncing between states if the encoder is not turned compl
 
 The 4-state rotation identifier is robust in that it will only detect one increment in rotation if all 4 states found in successful operation are met.
 
-States:
-- [1,1]
-  [0,1]
-  [0,0]
-  [1,0]
+States (CCW):
+
+[1,1]
+
+[0,1]
+
+[0,0]
+
+[1,0]
+
+These states can be seen in the video above. For clockwise rotation the states just go in the opposite order. The code I wrote is below, and successfully identifies both clockwise and counterclockwise rotation. *Note that in order for the arduino to miss an encoder step, the user would have to rotate it well over 10000rpm*
+
+'''cpp
+void encoder(){
+  clk_cur = digitalRead(clkPin);
+  dt_cur = digitalRead(dtPin);
+
+  if(state == 1){
+    if (clk_cur != clk_past || dt_cur != dt_past){
+      if(clk_cur<dt_cur){
+      dir = 1; //ccw is 1, cw is 0
+    }else if(clk_cur>dt_cur){
+      dir = 0;
+    }
+    state = 2;
+    clk_past = clk_cur;
+    dt_past = dt_cur;
+    }
+  }else if(state == 2){
+    state2or4();
+  }else if(state == 3){
+    if(clk_cur > dt_cur){
+      if(dir == 1){
+        state = 4;
+      }else{
+        state = 2;
+      }
+    }else if(clk_cur < dt_cur){
+      if(dir == 0){
+        state = 4;
+      }else{
+        state = 2;
+      }
+    }
+  }else if(state == 4){
+    state2or4();
+    if (state == 1){
+      if(dir == 1){
+        encoder_loc +=1;
+      }else{
+        encoder_loc -=1;
+      }
+      Serial.println(encoder_loc);
+    }
+  }
+
+}
+
+# Closing Remarks
+overall
+
+
 
 
 
