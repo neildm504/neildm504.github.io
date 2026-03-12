@@ -7,7 +7,7 @@ main:
 #    url: /tags/
   - title: "Projects"
     url: /projects/
-  - title: "Logs"
+  - title: "Updates"
     url: /logs/
   - title: "About"
     url: /about/
