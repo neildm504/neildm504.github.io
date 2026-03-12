@@ -8,14 +8,16 @@ layout: archive
 <h3 class="archive__subtitle">{{ site.data.ui-text[locale].recent_posts | default: "Recent Logs" }}</h3>
 
 {% if paginator %}
-  {% assign logs = paginator.posts %}
+  {% assign entries = paginator.posts %}
 {% else %}
-  {% assign logs = site.logs %}
+  {% assign entries = site.logs %}
 {% endif %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
-  {% include documents-collection.html locale=locale entries=logs type=entries_layout %}
+  {% for entry in entries %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
 </div>
 
 {% include paginator.html locale=locale %}
