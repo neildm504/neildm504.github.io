@@ -14,6 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Neil Muralles Engineering
+logo: /assets/images/logo.png
+masthead_title: " "
 email: neildm9268@gmail.com
 google_site_verification: bI4wIuejoOxJc99dxlS6SNgwA3_Q-8ZEZs4KTu9T5yE
 description: >- # this means to ignore newlines until "baseurl:"
