@@ -1,6 +1,7 @@
 ---
 title: "Logs"
 layout: collection
+classes: wide
 collection: logs
 permalink: /logs/
 author_profile: true
