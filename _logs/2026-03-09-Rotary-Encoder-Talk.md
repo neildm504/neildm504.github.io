@@ -43,6 +43,7 @@ There can be a lot of bouncing between states if the encoder is not turned compl
 The 4-state rotation identifier is robust in that it will only detect one increment in rotation if all 4 states found in successful operation are met. Regardless of direction, there are **only** 4 possible states of CLK and DT [CLK, DT]
 
 States (CCW):
+
 [1,1]
 
 [0,1]
