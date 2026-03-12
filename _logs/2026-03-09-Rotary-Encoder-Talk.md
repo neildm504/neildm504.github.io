@@ -40,7 +40,13 @@ There can be a lot of bouncing between states if the encoder is not turned compl
 
 ## Robust Reading
 
-The 4-state iden
+The 4-state rotation identifier is robust in that it will only detect one increment in rotation if all 4 states found in successful operation are met.
+
+States:
+- [1,1]
+  [0,1]
+  [0,0]
+  [1,0]
 
 
 
