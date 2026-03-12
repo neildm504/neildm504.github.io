@@ -7,17 +7,36 @@ layout: archive
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[locale].recent_posts | default: "Recent Logs" }}</h3>
 
+<!-- Diagnostic info -->
+<div style="background: #f0f0f0; padding: 10px; margin: 10px 0; border: 1px solid #ccc;">
+  <h4>Debug Info:</h4>
+  <p>site.logs size: {{ site.logs | size }}</p>
+  <p>site.posts size: {{ site.posts | size }}</p>
+  <p>paginator exists: {{ paginator | default: 'false' }}</p>
+  {% if site.logs.size > 0 %}
+    <p>First log file: {{ site.logs[0].path }}</p>
+  {% endif %}
+</div>
+
 {% if paginator %}
   {% assign entries = paginator.posts %}
+  <p>Using paginator</p>
 {% else %}
   {% assign entries = site.logs %}
+  <p>Using site.logs directly</p>
 {% endif %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
-  {% for entry in entries %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
+  {% if entries.size > 0 %}
+    <p>Found {{ entries.size }} entries to display</p>
+    {% for entry in entries %}
+      <p>Processing: {{ entry.path }}</p>
+      {% include archive-single.html type=entries_layout %}
+    {% endfor %}
+  {% else %}
+    <p>No entries found to display</p>
+  {% endif %}
 </div>
 
 {% include paginator.html locale=locale %}
