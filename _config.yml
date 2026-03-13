@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Neil Muralles Engineering
+title: Neil Muralles | Mechanical Engineering Student
 logo: /assets/images/logo.png
 masthead_title: " "
 email: neildm9268@gmail.com
