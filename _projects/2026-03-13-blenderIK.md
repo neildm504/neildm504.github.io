@@ -1,5 +1,7 @@
 ---
 title: "Blender Digital Model and Python Inverse Kinematics"
+tags:
+  - main_projects
 layout: single
 excerpt: "lorem ipsum"
 toc: true
