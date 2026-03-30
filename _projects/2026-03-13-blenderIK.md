@@ -8,7 +8,7 @@ toc: true
 toc_icon: "check-double"
 author_profile: true
 header: 
-  teaser: /assets/images/PB-thumbnail.jpeg
+  teaser: /assets/images/march2026/blender_preview.png
 ---
 
 ![photo of PB robotic arm](/assets/images/PB-thumbnail.jpeg){: .align-center width="500"}
