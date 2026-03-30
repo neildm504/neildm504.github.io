@@ -3,6 +3,7 @@ title: "Robust Rotary Encoder Logic (FSM)"
 layout: single
 excerpt: "Using an Incremental Rotary Encoder Robustly w/ Finite State Methods"
 toc: true
+toc_sticky: true
 toc_icon: "arrows-spin"
 author_profile: true
 header:
