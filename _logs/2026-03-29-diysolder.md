@@ -8,8 +8,9 @@ toc_icon: "temperature-high"
 author_profile: true
 header:
   teaser: /assets/images/diysolder_final.jpg
-  image: /assets/images/diysolder_final.jpg
 ---
+
+![final assembly](/assets/images/diysolder_final.jpg)
 
 ![sorting resistors](/assets/images/diysolder_sort.jpg){: .align-center width="400"}
 
