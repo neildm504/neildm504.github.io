@@ -21,7 +21,7 @@ feature_row3:
     url: /projects/
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/march2026/rotary_header.jpeg
+  - image_path: /assets/images/diysolder_final.jpg
     alt: "rotary encoder"
     title: "Update Logs"
     excerpt: "These are different snippets of useful information that progressed my projects."
