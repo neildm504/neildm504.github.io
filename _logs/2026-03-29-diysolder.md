@@ -10,7 +10,7 @@ header:
   teaser: /assets/images/diysolder_final.jpg
 ---
 
-![final assembly](/assets/images/diysolder_final.jpg)
+![final assembly](/assets/images/diysolder_final.jpg){: .align-center width="400"}
 
 Last week, I ordered multiple DIY soldering kits off of aliexpress so I could learn soldering for future projects while also creating some useful electronics (DIY waveform generator and oscilloscope). My first experience soldering is with this simple $2 led array with varying levels of resistance in series with an led.
 
