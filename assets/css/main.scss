@@ -9,3 +9,13 @@
   width: auto;       /* Maintains aspect ratio */
 }
 
+/* Make teaser images taller */
+.archive__item-teaser {
+  max-height: none !important;  /* Remove the height limit */
+}
+
+.archive__item-teaser img {
+  width: 100%;                  /* Keep full width */
+  height: auto;                 /* Maintain aspect ratio */
+  object-fit: cover;            /* Crop slightly if needed */
+}
