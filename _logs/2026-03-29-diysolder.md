@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/diysolder_final.jpg
 ---
 
-<figure class="align-center" style="width: 400px;">
+<figure class="align-center" style="width: 600px;">
   <img src="/assets/images/diysolder_final.jpg" 
        alt="Final assembly">
   <figcaption>Finished board</figcaption>
