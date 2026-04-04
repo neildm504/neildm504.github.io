@@ -14,7 +14,7 @@ header:
 <figure class="align-center" style="width: 400px;">
   <img src="/assets/images/diysolder_final.jpg" 
        alt="Final assembly">
-  <figcaption>finished board</figcaption>
+  <figcaption>Finished board</figcaption>
 </figure>
 
 Last week, I ordered multiple DIY soldering kits off of aliexpress so I could learn soldering for future projects while also creating some useful electronics (DIY waveform generator and oscilloscope). My first experience soldering is with this simple $2 led array with varying levels of resistance in series with an led.
@@ -55,7 +55,7 @@ Above is a view of my first round of soldering. Not the best, but I wanted to ge
 <figure class="align-center" style="width: 400px;">
   <img src="/assets/images/diysolder_demo.jpg" 
        alt="demo of diy soldering led kit in the dark">
-  <figcaption>FInal assembly in the dark</figcaption>
+  <figcaption>Final assembly demonstration</figcaption>
 </figure>
 
 The next step was to place the LEDs into their holes and continue soldering, making sure to get the polarity correct. After this I soldered on the barrel power jack and switch set. My first soldering "job" was finished. Here is the final result being powered by a 5V MB102 supply with the effects of low to high resistance on red LEDs.
