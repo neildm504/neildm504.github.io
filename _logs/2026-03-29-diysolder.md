@@ -1,5 +1,5 @@
 ---
-title: "Learning Soldering Basics w/ Kit"
+title: "Learning Soldering Basics w/ LED Array Kit"
 layout: single
 excerpt: "Getting down the basics of soldering electronic components to a PCB"
 toc: false
