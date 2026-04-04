@@ -6,6 +6,7 @@ toc: true
 toc_sticky: true
 toc_icon: "temperature-high"
 author_profile: true
+classes: wide
 header:
   teaser: /assets/images/diysolder_final.jpg
 ---
