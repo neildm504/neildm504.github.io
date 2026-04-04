@@ -36,7 +36,7 @@ I first measured each resistor with my multimeter and ordered them from smallest
 
 ![close up of soldering joints](/assets/images/diysolder_joints.jpg){: .align-center width="400"}
 
-Above is a view of my first round of soldering. Not the prettiest, but I wanted to get my hands dirty with this cheap project and learn by doing.
+Above is a view of my first round of soldering. Not the best, but I wanted to get my hands dirty with this cheap project and learn by doing.
 
 ![demo of diy soldering led kit in the dark](/assets/images/diysolder_demo.jpg){: .align-center width="400"}
 
