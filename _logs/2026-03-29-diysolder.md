@@ -12,6 +12,14 @@ header:
 
 ![final assembly](/assets/images/diysolder_final.jpg){: .align-center width="400"}
 
+{% include figure image_path="/assets/images/diysolder_final.jpg" alt="final assembly" caption="*finished board*" %}
+
+<figure class="align-center" style="width: 400px;">
+  <img src="/assets/images/diysolder_final.jpg" 
+       alt="final assembly">
+  <figcaption>finished board</figcaption>
+</figure>
+
 Last week, I ordered multiple DIY soldering kits off of aliexpress so I could learn soldering for future projects while also creating some useful electronics (DIY waveform generator and oscilloscope). My first experience soldering is with this simple $2 led array with varying levels of resistance in series with an led.
 
 # Setup
