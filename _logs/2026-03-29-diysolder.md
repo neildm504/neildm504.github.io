@@ -13,7 +13,7 @@ header:
 
 <figure class="align-center" style="width: 400px;">
   <img src="/assets/images/diysolder_final.jpg" 
-       alt="final assembly">
+       alt="Final assembly">
   <figcaption>finished board</figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ My setup consisted of:
 
 <figure class="align-center" style="width: 400px;">
   <img src="/assets/images/diysolder_sort.jpg" 
-       alt="sorting resistors">
+       alt="Sorting resistors">
   <figcaption>Organizing resistors using multimeter</figcaption>
 </figure>
 
@@ -55,7 +55,7 @@ Above is a view of my first round of soldering. Not the best, but I wanted to ge
 <figure class="align-center" style="width: 400px;">
   <img src="/assets/images/diysolder_demo.jpg" 
        alt="demo of diy soldering led kit in the dark">
-  <figcaption>demo</figcaption>
+  <figcaption>FInal assembly in the dark</figcaption>
 </figure>
 
 The next step was to place the LEDs into their holes and continue soldering, making sure to get the polarity correct. After this I soldered on the barrel power jack and switch set. My first soldering "job" was finished. Here is the final result being powered by a 5V MB102 supply with the effects of low to high resistance on red LEDs.
