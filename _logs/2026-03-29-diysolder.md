@@ -2,7 +2,7 @@
 title: "Learning Soldering Basics w/ Kit"
 layout: single
 excerpt: "Getting down the basics of soldering electronic components to a PCB"
-toc: true
+toc: false
 toc_sticky: true
 toc_icon: "temperature-high"
 author_profile: true
