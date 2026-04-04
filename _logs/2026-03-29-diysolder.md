@@ -10,10 +10,6 @@ header:
   teaser: /assets/images/diysolder_final.jpg
 ---
 
-![final assembly](/assets/images/diysolder_final.jpg){: .align-center width="400"}
-
-{% include figure image_path="/assets/images/diysolder_final.jpg" alt="final assembly" caption="*finished board*" %}
-
 <figure class="align-center" style="width: 400px;">
   <img src="/assets/images/diysolder_final.jpg" 
        alt="final assembly">
@@ -36,17 +32,30 @@ My setup consisted of:
 + Harbor Freight helping hands
 + Harbor Freight multimeter
 
-![sorting resistors](/assets/images/diysolder_sort.jpg){: .align-center width="400"}
+<figure class="align-center" style="width: 400px;">
+  <img src="/assets/images/diysolder_sort.jpg" 
+       alt="sorting resistors">
+  <figcaption>Organizing resistors using multimeter</figcaption>
+</figure>
+
 
 # Process
 
 I first measured each resistor with my multimeter and ordered them from smallest resistance to largest. After this, I placed them in their respective through-holes on the PCB. I applied flux on each joint and began soldering. I heated the joint then applied the solder.
 
-![close up of soldering joints](/assets/images/diysolder_joints.jpg){: .align-center width="400"}
+<figure class="align-center" style="width: 400px;">
+  <img src="/assets/images/diysolder_joints.jpg" 
+       alt="close up of soldering joints">
+  <figcaption>First round of soldered joints</figcaption>
+</figure>
 
 Above is a view of my first round of soldering. Not the best, but I wanted to get my hands dirty with this cheap project and learn by doing.
 
-![demo of diy soldering led kit in the dark](/assets/images/diysolder_demo.jpg){: .align-center width="400"}
+<figure class="align-center" style="width: 400px;">
+  <img src="/assets/images/diysolder_demo.jpg" 
+       alt="demo of diy soldering led kit in the dark">
+  <figcaption>demo</figcaption>
+</figure>
 
 The next step was to place the LEDs into their holes and continue soldering, making sure to get the polarity correct. After this I soldered on the barrel power jack and switch set. My first soldering "job" was finished. Here is the final result being powered by a 5V MB102 supply with the effects of low to high resistance on red LEDs.
 
