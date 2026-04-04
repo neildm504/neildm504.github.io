@@ -32,11 +32,11 @@ My setup consisted of:
 
 # Process
 
-I first measured each resistor with my multimeter and ordered them from smallest resistance to largest. After this, I placed them in their respective through-holes on the PCB. I applied flux on each joint and began soldering. I saw online that the goal was to heat the joint and then apply the solder. This worked well.
+I first measured each resistor with my multimeter and ordered them from smallest resistance to largest. After this, I placed them in their respective through-holes on the PCB. I applied flux on each joint and began soldering. I heated the joint then applied the solder.
 
 ![close up of soldering joints](/assets/images/diysolder_joints.jpg){: .align-center width="400"}
 
-Above is a view of my first round of soldering. Not the prettiest, but I wanted to get my hands dirty with this cheap project and just solder. Learn by doing.
+Above is a view of my first round of soldering. Not the prettiest, but I wanted to get my hands dirty with this cheap project and learn by doing.
 
 ![demo of diy soldering led kit in the dark](/assets/images/diysolder_demo.jpg){: .align-center width="400"}
 
