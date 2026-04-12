@@ -7,6 +7,8 @@ main:
 #    url: /tags/
   - title: "Projects"
     url: /projects/
+  - title: "Milestones"
+    url: /progress/
   - title: "Blog"
     url: /logs/
   - title: "About"
