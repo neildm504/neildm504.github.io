@@ -28,11 +28,11 @@ My aim was to create a fully 3d printable shell for the adapter that:
 - is strong enough to be thrown in a backpack and protect the PCB
 - could still display the onboard LED that showed bluetooth connection
 
-I also thought that it would be a nice touch to add their initials to the design (simple to add with virtually no added material).
+I also thought that it would be a nice touch to add their initials to the design (simple to add with no added material).
 
 # Design
 
 I was able to measure the board with a pair of [Harbor Freight Calipers](https://www.harborfreight.com/6-in-digital-caliper-with-sae-and-metric-fractional-readings-63731.html) and get the layout created in Fusion360.
-Now that I had the dimensions, I needed to choose a method of connecting the bottom and top part of the shell together. I wanted to avoid using nuts and bolts, and decided to use a tapered slot design to press fir the two pieces together...!!!
+Now that I had the dimensions, I needed to choose a method of connecting the bottom and top part of the shell together. I wanted to avoid using nuts and bolts, and decided to use a tapered slot design to press fit the two pieces together. 
 
 calipers and tolerancing
