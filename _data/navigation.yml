@@ -5,11 +5,13 @@ main:
 #    url: /categories/
 #  - title: "Tags"
 #    url: /tags/
+  - title: "Featured"
+    url: /featured/
   - title: "Projects"
     url: /projects/
   - title: "Milestones"
     url: /progress/
-  - title: "Blog"
+  - title: "Documentation"
     url: /logs/
   - title: "About"
     url: /about/
