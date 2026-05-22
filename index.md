@@ -3,7 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 # title: "Neil Muralles"
-excerpt: "My personal engineering website. I show my current projects as well as smaller bites of information that I found helpful."
+excerpt: "My personal engineering website. I show my current projects as well as smaller updates toward my projects/career."
 layout: splash
 header:
   overlay_filter: linear-gradient(rgba(70, 29, 124, 0.5), rgba(253, 208, 35, 0.5))
