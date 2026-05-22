@@ -4,23 +4,23 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 # title: "Featured Projects"
 # excerpt: "Handful of my most current & notable projects<br><br><br><br><br><br>"
-title: ""
+title: " "
 excerpt: "<br><br><br><br><br><br><br><br><br><br><br>"
 layout: splash
 header:
   overlay_image: /assets/images/meworking.jpg
 
 feature_row:
-  - image_path: /assets/images/
+  - image_path: assets/images/april2026/usbblowup1.png
     alt: ""
-    title: "..."
+    title: "Custom Designed and 3D-printed Bluetooth Adapter Shell"
     excerpt: "..."
     url: "#test-link"
     btn_label: "See more"
     btn_class: "btn--primary"
     
 feature_row2:
-  - image_path: /assets/images/
+  - image_path: assets/images/PB-thumbnail.jpeg
     alt: ""
     title: "..."
     excerpt: "..."
@@ -29,7 +29,7 @@ feature_row2:
     btn_class: "btn--primary"
 
 feature_row3:
-  - image_path: /assets/images/
+  - image_path: assets/images/april2026/diyosc_triangle.jpg
     alt: ""
     title: "..."
     excerpt: "..."
@@ -60,6 +60,10 @@ feature_row4:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
+
+# Featured Projects
+
+Handful of my most current & notable projects
 
 {% include feature_row id="feature_row"  type="left" %}
 {% include feature_row id="feature_row2"  type="right" %}
