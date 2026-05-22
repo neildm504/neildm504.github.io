@@ -29,7 +29,7 @@ feature_row2:
     btn_class: "btn--primary"
 
 feature_row3:
-  - image_path: assets/images/april2026/diyosc_triangle.jpg
+  - image_path: assets/images/april2026/diyosc_thumbnail.jpg
     alt: ""
     title: "..."
     excerpt: "..."
