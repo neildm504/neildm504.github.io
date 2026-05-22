@@ -6,8 +6,7 @@ title: "Featured Projects"
 excerpt: "Handful of my most current & notable projects"
 layout: splash
 header:
-  overlay_filter: linear-gradient(rgba(70, 29, 124, 0.5), rgba(253, 208, 35, 0.5))
-  overlay_image: /assets/images/cover_bars.jpeg
+  overlay_image: /assets/images/meworking.jpg
 
 feature_row:
   - image_path: /assets/images/
