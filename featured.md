@@ -2,8 +2,9 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: "Featured Projects"
-excerpt: "Handful of my most current & notable projects<br><br><br><br><br><br>"
+# title: "Featured Projects"
+# excerpt: "Handful of my most current & notable projects<br><br><br><br><br><br>"
+excerpt: "<br><br><br><br><br><br><br><br><br><br><br>"
 layout: splash
 header:
   overlay_image: /assets/images/meworking.jpg
