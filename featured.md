@@ -5,7 +5,7 @@
 # title: "Featured Projects"
 # excerpt: "Handful of my most current & notable projects<br><br><br><br><br><br>"
 title: " "
-excerpt: "<br><br><br><br><br><br><br><br><br><br><br>"
+excerpt: "<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>"
 layout: splash
 header:
   overlay_image: /assets/images/meworking.jpg
