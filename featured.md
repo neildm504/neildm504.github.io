@@ -62,7 +62,7 @@ feature_row4:
 ---
 
 <div align="center">
-  <h1 style="font-size:80px;">Featured Projects</h1>
+  <h1 style="font-size:80px;">𝑭𝒆𝒂𝒕𝒖𝒓𝒆𝒅 𝑷𝒓𝒐𝒋𝒆𝒄𝒕𝒔</h1>
 </div>
 
 # Featured Projects
