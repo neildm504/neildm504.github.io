@@ -8,6 +8,6 @@ author_profile: true
 entries_layout: grid
 ---
 
-Check out my projects! (ONGOING, website newly created)
+Check out my projects
 
 
