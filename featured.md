@@ -65,10 +65,6 @@ feature_row4:
   <h1 style="font-size:80px;">𝑭𝒆𝒂𝒕𝒖𝒓𝒆𝒅 𝑷𝒓𝒐𝒋𝒆𝒄𝒕𝒔</h1>
 </div>
 
-# Featured Projects
-
-Handful of my most current & notable projects
-
 {% include feature_row id="feature_row"  type="left" %}
 {% include feature_row id="feature_row2"  type="right" %}
 {% include feature_row id="feature_row3"  type="left" %}
