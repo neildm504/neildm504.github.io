@@ -61,6 +61,10 @@ feature_row4:
     btn_class: "btn--primary"
 ---
 
+<div align="center">
+  <h1 style="font-size:80px;">Featured Projects</h1>
+</div>
+
 # Featured Projects
 
 Handful of my most current & notable projects
