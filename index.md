@@ -3,11 +3,13 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 # title: "Neil Muralles"
-excerpt: "My personal engineering website. I show my current projects as well as smaller updates toward my projects/career."
+excerpt: "My personal engineering website. I show my current projects as well as smaller updates toward my projects/career.<br><br><br><br><br><br><br><br><br><br><br><br><br><br>"
 layout: splash
 header:
-  overlay_filter: linear-gradient(rgba(70, 29, 124, 0.5), rgba(253, 208, 35, 0.5))
-  overlay_image: /assets/images/cover_bars.jpeg
+  overlay_image: /assets/images/meworking.jpg
+#  overlay_filter: linear-gradient(rgba(70, 29, 124, 0.5), rgba(253, 208, 35, 0.5))
+#  overlay_image: /assets/images/cover_bars.jpeg
+  
 
 feature_row:
   
@@ -38,8 +40,6 @@ feature_row3:
 ---
 
 Welcome to my personal website. I am a Junior at Louisiana State University in Mechanical Engineering. My current interests in M.E. include controls and mechatronics, but I am still gaining experience in all aspects of the field.
-
-I've created this site on 03/10/2026 and plan to continue updating it as I progress with coursework and my projects.
 
 {% include feature_row id="feature_row3" %}
 
