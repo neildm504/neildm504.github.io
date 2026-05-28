@@ -24,9 +24,10 @@
 
 /* --- Your Custom Styles Below --- */
 /* This creates the black "marker highlight" effect for your title */
-.splash .page__title {
-    background-color: black !important;
-    color: white !important;
+/* Only applies to splash pages */
+.layout--splash .page__title {
+    background-color: black;
+    color: white;
     display: inline-block;
     padding: 0.1em 0.2em;
 }
