@@ -1,6 +1,7 @@
 ---
 ---
 
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
 /* Make the logo bigger */
@@ -18,4 +19,13 @@
   width: 100%;                  /* Keep full width */
   height: auto;                 /* Maintain aspect ratio */
   object-fit: cover;            /* Crop slightly if needed */
+}
+
+/* --- Your Custom Styles Below --- */
+/* This creates the black "marker highlight" effect for your title */
+.splash .page__title {
+    background-color: black;   /* Sets the highlight color to black */
+    color: white;              /* Sets the text color to white for contrast */
+    display: inline-block;     /* Makes the background wrap the text, like real highlighter */
+    padding: 0.1em 0.2em;      /* Adds a little breathing room around the text */
 }
