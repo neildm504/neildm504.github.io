@@ -12,10 +12,33 @@ header:
   
 
 feature_row:
-  
+  - image_path: assets/images/april2026/usbblowup1.png
+    alt: ""
+    title: "Custom Designed and 3D-printed Bluetooth Adapter Shell"
+    excerpt: "..."
+    url: "#test-link"
+    btn_label: "See more"
+    btn_class: "btn--primary"
+    
 feature_row2:
+  - image_path: assets/images/PB-thumbnail.jpeg
+    alt: ""
+    title: "..."
+    excerpt: "..."
+    url: "#test-link"
+    btn_label: "See more"
+    btn_class: "btn--primary"
 
 feature_row3:
+  - image_path: assets/images/april2026/diyosc_triangle.jpg
+    alt: ""
+    title: "..."
+    excerpt: "..."
+    url: "#test-link"
+    btn_label: "See more"
+    btn_class: "btn--primary"
+
+feature_row4:
   - image_path: assets/images/PB-thumbnail.jpeg
     alt: "robotic arm"
     title: "Projects"
@@ -41,5 +64,13 @@ feature_row3:
 
 Welcome to my personal website. I am a Junior at Louisiana State University in Mechanical Engineering. My current interests in M.E. include controls and mechatronics, but I am still gaining experience in all aspects of the field.
 
-{% include feature_row id="feature_row3" %}
+<div align="center">
+  <h1 style="font-size:80px;">𝑭𝒆𝒂𝒕𝒖𝒓𝒆𝒅 𝑷𝒓𝒐𝒋𝒆𝒄𝒕𝒔</h1>
+</div>
+
+{% include feature_row id="feature_row"  type="left" %}
+{% include feature_row id="feature_row2"  type="right" %}
+{% include feature_row id="feature_row3"  type="left" %}
+
+{% include feature_row id="feature_row4" %}
 
