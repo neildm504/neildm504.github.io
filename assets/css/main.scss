@@ -21,11 +21,12 @@
   object-fit: cover;            /* Crop slightly if needed */
 }
 
+
 /* --- Your Custom Styles Below --- */
 /* This creates the black "marker highlight" effect for your title */
-.splash .page__title {
-    background-color: black;   /* Sets the highlight color to black */
-    color: white;              /* Sets the text color to white for contrast */
-    display: inline-block;     /* Makes the background wrap the text, like real highlighter */
-    padding: 0.1em 0.2em;      /* Adds a little breathing room around the text */
+.page__title {
+    background-color: black !important;
+    color: white !important;
+    display: inline-block;
+    padding: 0.1em 0.2em;
 }
