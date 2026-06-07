@@ -39,7 +39,7 @@
     padding: 0.1em 0.2em;
 }
 
-.layout--splash .page__lead br {
-    background-color: transparent;  /* Makes br backgrounds transparent */
+.layout--splash .page__lead {
+    background-clip: padding-box;
 }
 
