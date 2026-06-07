@@ -35,11 +35,9 @@
 .layout--splash .page__lead {
     background-color: black;
     color: white;
-    display: inline-block;
+    display: inline;
     padding: 0.1em 0.2em;
 }
 
-.layout--splash .page__lead {
-    background-clip: padding-box;
-}
+
 
