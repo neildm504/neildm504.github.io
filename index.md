@@ -3,7 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 # title: "Neil Muralles"
-excerpt: "My personal engineering website. I show my current projects as well as smaller updates toward my projects/career.<br><br><br><br><br><br><br><br><br><br><br><br>"
+excerpt: "My personal engineering website. I show my current projects as well as smaller updates toward my projects/career.<br><br><br><br><br><br><br><br>"
 layout: splash
 header:
   overlay_image: /assets/images/pressuregif.gif
