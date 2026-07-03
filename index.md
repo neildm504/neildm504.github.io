@@ -6,12 +6,7 @@ title: "Mechanical Engineering Portfolio"
 excerpt: "My personal engineering website. I show my current projects as well as smaller updates toward my projects/career.<br><br><br><br><br><br><br><br>"
 layout: splash
 header:
-  video:
-    path: assets/videos/websitesplash2.mp4
-    loop: true
-    muted: true
-
- # overlay_image: /assets/images/pressuregif.gif
+  overlay_image: /assets/images/pressuregif.gif
   
 #  overlay_filter: linear-gradient(rgba(70, 29, 124, 0.5), rgba(253, 208, 35, 0.5))
 #  overlay_image: /assets/images/cover_bars.jpeg
