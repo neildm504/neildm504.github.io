@@ -2,7 +2,7 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: "Neil Muralles, Senior in Mechanical Engineering"
+title: "Neil Muralles, Mechanical Engineering"
 excerpt: "My personal engineering website. Here lies documentation for my industry experience and research/personal projects.<br><br><br><br><br><br><br><br>"
 layout: splash
 header:
@@ -15,10 +15,10 @@ header:
 feature_row:
   - image_path: assets/images/symposium_headshot.jpg
     alt: "Photo of me"
-    title: "Custom Designed and 3D-printed Bluetooth Adapter Shell"
+    title: "Who am I?"
     excerpt: "..."
     url: "#test-link"
-    btn_label: "See more"
+    btn_label: "See featured projects"
     btn_class: "btn--primary"
     
 feature_row2:
@@ -62,12 +62,6 @@ feature_row4:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
-
-Welcome to my personal website. I am a Junior at Louisiana State University in Mechanical Engineering. My current interests in M.E. include controls and mechatronics, but I am still gaining experience in all aspects of the field.
-
-<div align="center">
-  <h1 style="font-size:80px;">𝑭𝒆𝒂𝒕𝒖𝒓𝒆𝒅 𝑷𝒓𝒐𝒋𝒆𝒄𝒕𝒔</h1>
-</div>
 
 {% include feature_row id="feature_row"  type="left" %}
 {% include feature_row id="feature_row2"  type="right" %}
