@@ -16,8 +16,8 @@ feature_row:
   - image_path: assets/images/symposium_headshot.jpg
     alt: "Photo of me"
     title: "Who am I?"
-    excerpt: "..."
-    url: "#test-link"
+    excerpt: "I am a rising senior in Mechanical Engineering at LSU. As of now... I am very excited to begin my career after graduation, and am more than happy to..."
+    url: "/featured/"
     btn_label: "See featured projects"
     btn_class: "btn--primary"
     
@@ -64,8 +64,6 @@ feature_row4:
 ---
 
 {% include feature_row id="feature_row"  type="left" %}
-{% include feature_row id="feature_row2"  type="right" %}
-{% include feature_row id="feature_row3"  type="left" %}
 
 {% include feature_row id="feature_row4" %}
 
