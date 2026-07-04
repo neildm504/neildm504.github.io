@@ -6,7 +6,7 @@ title: "Neil Muralles, Mechanical Engineering"
 excerpt: "My personal engineering website. Here lies documentation for my industry experience and research/personal projects.<br><br><br><br><br><br><br><br>"
 layout: splash 
 header:
-  overlay_video: /assets/videos/websitesplash2.mp4
+  video: /assets/videos/websitesplash2.mp4
   
 #  overlay_filter: linear-gradient(rgba(70, 29, 124, 0.5), rgba(253, 208, 35, 0.5))
 #  overlay_image: /assets/images/cover_bars.jpeg
