@@ -4,7 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: "Neil Muralles, Mechanical Engineering"
 excerpt: "My personal engineering website. Here lies documentation for my industry experience and research/personal projects.<br><br><br><br><br><br><br><br>"
-layout: splash
+layout: splash 
 header:
   overlay_video: /assets/videos/websitesplash2.mp4
   
