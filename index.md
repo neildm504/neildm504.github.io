@@ -2,8 +2,8 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: "Mechanical Engineering Portfolio"
-excerpt: "My personal engineering website. I show my current projects as well as smaller updates toward my projects/career.<br><br><br><br><br><br><br><br>"
+title: "Neil Muralles, Senior in Mechanical Engineering"
+excerpt: "My personal engineering website. Here lies documentation for my industry experience and research/personal projects.<br><br><br><br><br><br><br><br>"
 layout: splash
 header:
   overlay_image: /assets/images/pressuregif.gif
@@ -13,8 +13,8 @@ header:
   
 
 feature_row:
-  - image_path: assets/images/april2026/usbblowup1.png
-    alt: ""
+  - image_path: assets/images/symposium_headshot.jpg
+    alt: "Photo of me"
     title: "Custom Designed and 3D-printed Bluetooth Adapter Shell"
     excerpt: "..."
     url: "#test-link"
