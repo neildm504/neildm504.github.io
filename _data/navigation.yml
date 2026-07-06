@@ -7,11 +7,11 @@ main:
 #    url: /tags/
   - title: "Featured"
     url: /featured/
+  - title: "Industry Experience"
+    url: /industry/
   - title: "Projects"
     url: /projects/
-  - title: "Milestones"
-    url: /progress/
-  - title: "Documentation"
+  - title: "Tweaks"
     url: /logs/
   - title: "About"
     url: /about/
