@@ -17,7 +17,7 @@ feature_row:
   - image_path: assets/images/symposium_headshot.jpg
     alt: "Photo of me"
     title: "Who am I?"
-    excerpt: "I am a rising senior in Mechanical Engineering at LSU. As of now... I am very excited to begin my career after graduation, and am more than happy to..."
+    excerpt: "I am a rising senior in Mechanical Engineering at LSU. I am currently a Summer 2026 Mechanical Engineering Intern at S&B Engineers and Constructors, an EPC company that designs and builds large-scale industrial facilities. I am very excited to begin my career after graduation, and welcome opportunities in new regions and industries across the US."
     url: "/featured/"
     btn_label: "See featured projects"
     btn_class: "btn--primary"
