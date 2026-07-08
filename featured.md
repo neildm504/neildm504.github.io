@@ -20,20 +20,20 @@ feature_row:
     btn_class: "btn--primary"
     
 feature_row2:
-  - image_path: assets/images/PB-thumbnail.jpeg
+  - image_path: /assets/images/april2026/diyosc_thumbnail.jpg
     alt: ""
-    title: "..."
-    excerpt: "..."
+    title: "Oscilloscope and Waveform Generator Assembly"
+    excerpt: "Soldering and assembly of a DIY DSO183 Oscilloscope and XR2206 Waveform Generator"
     url: "#test-link"
-    btn_label: "See more"
+    btn_label: "/projects/2026-03-31-diyosc_proj/"
     btn_class: "btn--primary"
 
 feature_row3:
-  - image_path: assets/images/april2026/diyosc_triangle.jpg
+  - image_path: /assets/images/march2026/rotary_header.jpeg
     alt: ""
-    title: "..."
+    title: "Understanding and Implementing Reliable Rotary Encoder Logic"
     excerpt: "..."
-    url: "#test-link"
+    url: "/projects/2026-03-09-Rotary-Encoder-Talk/"
     btn_label: "See more"
     btn_class: "btn--primary"
 
