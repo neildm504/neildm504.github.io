@@ -14,7 +14,7 @@ feature_row:
   - image_path: assets/images/april2026/usbblowup1.png
     alt: ""
     title: "Custom Designed and 3D-printed Bluetooth Adapter Shell"
-    excerpt: "Custom CAD Design and 100% 3D printed shell for USB protection."
+    excerpt: "From-scratch CAD Design and 100% 3D printed shell utilizing precision calipers to transform raw measurements to a sturdy, protective case for a wireless mouse USB bluetooth adapter."
     url: "/projects/2026-04-12-CustomMouseCase/"
     btn_label: "See more"
     btn_class: "btn--primary"
@@ -23,7 +23,7 @@ feature_row2:
   - image_path: /assets/images/april2026/diyosc_thumbnail.jpg
     alt: ""
     title: "Oscilloscope and Waveform Generator Assembly"
-    excerpt: "Soldering and assembly of a DIY DSO183 Oscilloscope and XR2206 Waveform Generator"
+    excerpt: "Soldering and assembly of a DIY DSO183 Oscilloscope and XR2206 Waveform Generator. Includes demo of various waveforms displayed on oscilliscope."
     url: "/projects/2026-03-31-diyosc_proj/"
     btn_label: "See more"
     btn_class: "btn--primary"
@@ -32,7 +32,7 @@ feature_row3:
   - image_path: /assets/images/march2026/rotary_header.jpeg
     alt: ""
     title: "Understanding and Implementing Reliable Rotary Encoder Logic"
-    excerpt: "Includes visuals and code used"
+    excerpt: "Full understanding of the inner workings of a rotary encoder as well as implementign custom code for reliable rotation tracking. Includes visuals and code used."
     url: "/projects/2026-03-09-Rotary-Encoder-Talk/"
     btn_label: "See more"
     btn_class: "btn--primary"
@@ -66,5 +66,5 @@ feature_row4:
 </div>
 
 {% include feature_row id="feature_row"  type="left" %}
-{% include feature_row id="feature_row2"  type="right" %}
+{% include feature_row id="feature_row2"  type="left" %}
 {% include feature_row id="feature_row3"  type="left" %}
