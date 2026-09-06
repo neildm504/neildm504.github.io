@@ -5,12 +5,12 @@ main:
 #    url: /categories/
 #  - title: "Tags"
 #    url: /tags/
-  - title: "Home"
-    url: 
+
   - title: "Featured"
     url: /featured/
   - title: "Industry Experience"
     url: /industry/
   - title: "Projects"
     url: /projects/
-
+  - title: "Resume"
+    url: /resume/
