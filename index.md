@@ -64,31 +64,27 @@ feature_row4:
     btn_class: "btn--primary"
 
 feature_row5:
+  - image_path: assets/images/sbepc/he1.png
+    alt: ""
+    title: "Heat Exchanger Engineering"
+    excerpt: "Worked with shell-and-tube and air-cooled heat exchangers using HTRI XIST and Xace to evaluate thermal performance, pressure drop, flow velocity, and design constraints. Applied API and TEMA guidelines while exploring how geometry and operating conditions influence exchanger performance."
+    url: "/industry/"
+    btn_label: "See more"
+    btn_class: "btn--primary"
+  - image_path: assets/images/sbepc/pv1.jpg
+    alt: ""
+    title: "Pressure Vessel Engineering"
+    excerpt: "Worked with pressure vessel designs in COMPRESS, applying ASME Section VIII requirements to evaluate thickness, nozzles, supports, wind/seismic loading, and other mechanical design considerations."
+    url: "/industry/"
+    btn_label: "See more"
+    btn_class: "btn--primary"  
   - image_path: assets/images/april2026/usbblowup1.png
     alt: ""
-    title: "Custom Designed and 3D-printed Bluetooth Adapter Shell"
-    excerpt: "From-scratch CAD Design and 100% 3D printed shell utilizing precision calipers to transform       raw measurements to a sturdy, protective case for a wireless mouse USB bluetooth adapter."
-    url: "/projects/2026-04-12-CustomMouseCase/"
+    title: "Bolt & Pin Analysis Tool"
+    excerpt: "Developed a custom Excel calculation tool for bolt and pin sizing and analysis, organizing design inputs, load calculations, and engineering checks into a reusable workflow."
+    url: "/industry/"
     btn_label: "See more"
-    btn_class: "btn--primary"
-    
-feature_row6:
-  - image_path: /assets/images/april2026/diyosc_thumbnail.jpg
-    alt: ""
-    title: "Oscilloscope and Waveform Generator Assembly"
-    excerpt: "Soldering and assembly of a DIY DSO183 Oscilloscope and XR2206 Waveform Generator. Includes demo of various waveforms displayed on oscilliscope."
-    url: "/projects/2026-03-31-diyosc_proj/"
-    btn_label: "See more"
-    btn_class: "btn--primary"
-
-feature_row7:
-  - image_path: /assets/images/march2026/rotary_header.jpeg
-    alt: ""
-    title: "Understanding and Implementing Reliable Rotary Encoder Logic"
-    excerpt: "Full understanding of the inner workings of a rotary encoder as well as implementign custom       code for reliable rotation tracking. Includes visuals and code used."
-    url: "/projects/2026-03-09-Rotary-Encoder-Talk/"
-    btn_label: "See more"
-    btn_class: "btn--primary"
+    btn_class: "btn--primary"    
 
 ---
 
@@ -98,9 +94,7 @@ feature_row7:
   <h1 style="font-size:70px;">Professional Experience</h1>
 </div>
 
-{% include feature_row id="feature_row5"  type="right" %}
-{% include feature_row id="feature_row6"  type="right" %}
-{% include feature_row id="feature_row7"  type="left" %}
+{% include feature_row id="feature_row5" type="left" %}
 
-{% include feature_row id="feature_row4" type="left"  %}
+{% include feature_row id="feature_row4" %}
 
