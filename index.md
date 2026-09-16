@@ -3,7 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: "Neil Muralles - Mechanical Engineering"
-excerpt: "Mechanical engineering senior interested in thermal systems, instrumentation, controls, and engineering design. This site documents my industry experience, research, and engineering projects.<br><br><br><br><br><br>"
+excerpt: "Mechanical engineering senior interested in thermal systems, instrumentation, controls, and engineering design. This site documents my professional experience, research, and engineering projects.<br><br><br><br><br><br>"
 layout: splash 
 header:
   overlay_image: /assets/images/pressuregif.gif
@@ -95,7 +95,7 @@ feature_row7:
 {% include feature_row id="feature_row"  type="left" %}
 
 <div align="center">
-  <h1 style="font-size:80px;">𝑭𝒆𝒂𝒕𝒖𝒓𝒆𝒅 𝑷𝒓𝒐𝒋𝒆𝒄𝒕𝒔</h1>
+  <h1 style="font-size:70px;">Professional Experience</h1>
 </div>
 
 {% include feature_row id="feature_row5"  type="right" %}
