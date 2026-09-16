@@ -67,7 +67,7 @@ feature_row4:
   - image_path: assets/images/april2026/usbblowup1.png
     alt: ""
     title: "Custom Designed and 3D-printed Bluetooth Adapter Shell"
-    excerpt: "From-scratch CAD Design and 100% 3D printed shell utilizing precision calipers to transform raw measurements to a sturdy, protective case for a wireless mouse USB bluetooth adapter."
+    excerpt: "From-scratch CAD Design and 100% 3D printed shell utilizing precision calipers to transform       raw measurements to a sturdy, protective case for a wireless mouse USB bluetooth adapter."
     url: "/projects/2026-04-12-CustomMouseCase/"
     btn_label: "See more"
     btn_class: "btn--primary"
@@ -85,7 +85,7 @@ feature_row7:
   - image_path: /assets/images/march2026/rotary_header.jpeg
     alt: ""
     title: "Understanding and Implementing Reliable Rotary Encoder Logic"
-    excerpt: "Full understanding of the inner workings of a rotary encoder as well as implementign custom code for reliable rotation tracking. Includes visuals and code used."
+    excerpt: "Full understanding of the inner workings of a rotary encoder as well as implementign custom       code for reliable rotation tracking. Includes visuals and code used."
     url: "/projects/2026-03-09-Rotary-Encoder-Talk/"
     btn_label: "See more"
     btn_class: "btn--primary"
@@ -98,7 +98,7 @@ feature_row7:
   <h1 style="font-size:80px;">𝑭𝒆𝒂𝒕𝒖𝒓𝒆𝒅 𝑷𝒓𝒐𝒋𝒆𝒄𝒕𝒔</h1>
 </div>
 
-{% include feature_row id="feature_row5"  type="left" %}
+{% include feature_row id="feature_row5"  type="right" %}
 {% include feature_row id="feature_row6"  type="right" %}
 {% include feature_row id="feature_row7"  type="left" %}
 
