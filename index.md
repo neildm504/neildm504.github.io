@@ -64,7 +64,7 @@ feature_row4:
     btn_class: "btn--primary"
 
 feature_row5:
-  - image_path: assets/images/sbepc/he1.png
+  - image_path: assets/images/sbepc/he1.jpg
     alt: ""
     title: "Heat Exchanger Engineering"
     excerpt: "Worked with shell-and-tube and air-cooled heat exchangers using HTRI XIST and Xace to evaluate thermal performance, pressure drop, flow velocity, and design constraints. Applied API and TEMA guidelines while exploring how geometry and operating conditions influence exchanger performance."
