@@ -78,7 +78,7 @@ feature_row5:
     url: "/industry/"
     btn_label: "See more"
     btn_class: "btn--primary"  
-  - image_path: assets/images/april2026/usbblowup1.png
+  - image_path: assets/images/sbepc/boltpin1.png
     alt: ""
     title: "Bolt & Pin Analysis Tool"
     excerpt: "Developed a custom Excel calculation tool for bolt and pin sizing and analysis, organizing design inputs, load calculations, and engineering checks into a reusable workflow."
