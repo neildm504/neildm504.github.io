@@ -65,6 +65,10 @@ feature_row4:
 
 ---
 
+<div align="center">
+  <h1 style="font-size:70px;">Welcome!</h1>
+</div>
+
 <div class="who-am-i">
   {% include feature_row id="feature_row" type="left" %}
 </div>
@@ -77,9 +81,11 @@ feature_row4:
   <div class="feature__item--left">
     <div class="archive__item">
       <div class="archive__item-teaser">
-        <img src="{{ '/assets/images/sbepc/he1.jpg' | relative_url }}" alt="" />
-        <img src="{{ '/assets/images/sbepc/pv1.jpg' | relative_url }}" alt="" />
-        <img src="{{ '/assets/images/sbepc/boltpin1.png' | relative_url }}" alt="" />
+        <img class="sb-carousel__image is-active" src="{{ '/assets/images/sbepc/he1.jpg' | relative_url }}" alt="Shell-and-tube heat exchanger internship graphic" />
+        <img class="sb-carousel__image" src="{{ '/assets/images/sbepc/pv1.jpg' | relative_url }}" alt="Pressure vessel internship graphic" aria-hidden="true" />
+        <img class="sb-carousel__image" src="{{ '/assets/images/sbepc/boltpin1.png' | relative_url }}" alt="Bolt and pin analysis diagram" aria-hidden="true" />
+        <button type="button" class="sb-carousel__arrow sb-carousel__arrow--previous" aria-label="Previous internship photo" hidden>&#10094;</button>
+        <button type="button" class="sb-carousel__arrow sb-carousel__arrow--next" aria-label="Next internship photo" hidden>&#10095;</button>
       </div>
       <div class="archive__item-body">
         <h2 class="archive__item-title">S&amp;B Summer 2026 Intern</h2>
@@ -93,3 +99,5 @@ feature_row4:
 </div>
 
 {% include feature_row id="feature_row4" %}
+
+<script src="{{ '/assets/js/sb-carousel.js' | relative_url }}" defer></script>

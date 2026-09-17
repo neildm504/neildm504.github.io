@@ -35,36 +35,66 @@
   height: auto;
 }
 
-/* Cycle the three S&B images within a single experience feature. */
+/* S&B internship slideshow. */
 .sb-internship .archive__item-teaser {
   position: relative;
 }
 
-.sb-internship .archive__item-teaser img {
+.sb-internship .sb-carousel__image {
   position: absolute;
   inset: 0;
   opacity: 0;
+  transition: opacity 0.4s ease;
 }
 
-.sb-internship .archive__item-teaser img:first-child {
+.sb-internship .sb-carousel__image.is-active {
   opacity: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .sb-internship .archive__item-teaser img {
-    animation: sb-image-cycle 15s infinite;
-  }
-
-  .sb-internship .archive__item-teaser img:nth-child(2) {
-    animation-delay: 5s;
-  }
-
-  .sb-internship .archive__item-teaser img:nth-child(3) {
-    animation-delay: 10s;
-  }
+.sb-carousel__arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  transform: translateY(-50%);
 }
 
-@keyframes sb-image-cycle {
-  0%, 29% { opacity: 1; }
-  33%, 100% { opacity: 0; }
+.sb-carousel__arrow:hover,
+.sb-carousel__arrow:focus-visible {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.sb-carousel__arrow:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+.sb-carousel__arrow--previous {
+  left: 0.65rem;
+}
+
+.sb-carousel__arrow--next {
+  right: 0.65rem;
+}
+
+.sb-carousel__arrow[hidden] {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sb-internship .sb-carousel__image {
+    transition: none;
+  }
 }
