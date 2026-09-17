@@ -122,6 +122,19 @@
   margin-top: 1.5rem;
 }
 
+.home-contact {
+  max-width: 48rem;
+  margin: 3rem auto 5rem;
+  text-align: center;
+}
+
+.home-contact__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
 @media (min-width: 37.5em) {
   .experience-carousel .feature__item--left .archive__item-teaser {
     width: calc(40.6779661017% * var(--experience-photo-scale));

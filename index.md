@@ -115,7 +115,7 @@ feature_row4:
         <h2 class="archive__item-title">Stein Lab @ iCORE</h2>
         <p class="experience-date">March 2025 – Present</p>
         <div class="archive__item-excerpt">
-          <p>At LSU's Stein Lab, I helped design and experimentally test a liquid-metal distribution system, including its stepper-driven syringe subsystem. I modeled the helicopter's full dynamics across different initial conditions, including left and right yaw, and prepared figures for a physics-informed neural-network research project. During a week at NASA Langley, I supported input-shaping tests on the LSMS crane and visited research facilities.</p>
+          <p>At LSU's Stein Lab, I helped design and experimentally test a liquid-metal distribution system, including its stepper-driven syringe subsystem. I modeled the helicopter's full dynamics across different initial conditions and prepared figures for a physics-informed neural-network research project. During a week at NASA Langley, I supported input-shaping tests on the LSMS crane and visited research facilities.</p>
         </div>
       </div>
     </div>
@@ -153,5 +153,14 @@ feature_row4:
 </div>
 
 {% include feature_row id="feature_row4" %}
+
+<section id="contact" class="home-contact">
+  <h1 style="font-size:70px;">Contact</h1>
+  <p>I'm open to mechanical engineering opportunities and project conversations. Reach me at <a href="mailto:{{ site.email }}">{{ site.email }}</a>, connect on LinkedIn, or view my resume.</p>
+  <div class="home-contact__actions">
+    <a href="{{ '/resume/' | relative_url }}" class="btn btn--primary">View resume</a>
+    <a href="https://www.linkedin.com/in/neilmuralles/" class="btn btn--inverse" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</section>
 
 <script src="{{ '/assets/js/experience-carousel.js' | relative_url }}" defer></script>
