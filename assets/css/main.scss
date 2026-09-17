@@ -35,23 +35,28 @@
   height: auto;
 }
 
-/* S&B internship slideshow. */
-.sb-internship .archive__item-teaser {
+/* Experience slideshows. */
+.experience-carousel .archive__item-teaser {
   position: relative;
+  background: #f5f5f5;
 }
 
-.sb-internship .sb-carousel__image {
+.experience-carousel .experience-carousel__image {
   position: absolute;
   inset: 0;
   opacity: 0;
   transition: opacity 0.4s ease;
 }
 
-.sb-internship .sb-carousel__image.is-active {
+.experience-carousel .experience-carousel__image--contain {
+  object-fit: contain;
+}
+
+.experience-carousel .experience-carousel__image.is-active {
   opacity: 1;
 }
 
-.sb-carousel__arrow {
+.experience-carousel__arrow {
   position: absolute;
   top: 50%;
   z-index: 1;
@@ -71,30 +76,34 @@
   transform: translateY(-50%);
 }
 
-.sb-carousel__arrow:hover,
-.sb-carousel__arrow:focus-visible {
+.experience-carousel__arrow:hover,
+.experience-carousel__arrow:focus-visible {
   background: rgba(0, 0, 0, 0.85);
 }
 
-.sb-carousel__arrow:focus-visible {
+.experience-carousel__arrow:focus-visible {
   outline: 2px solid #fff;
   outline-offset: 2px;
 }
 
-.sb-carousel__arrow--previous {
+.experience-carousel__arrow--previous {
   left: 0.65rem;
 }
 
-.sb-carousel__arrow--next {
+.experience-carousel__arrow--next {
   right: 0.65rem;
 }
 
-.sb-carousel__arrow[hidden] {
+.experience-carousel__arrow[hidden] {
   display: none;
 }
 
+.stein-lab {
+  margin-top: 1.5rem;
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .sb-internship .sb-carousel__image {
+  .experience-carousel .experience-carousel__image {
     transition: none;
   }
 }

@@ -77,15 +77,15 @@ feature_row4:
   <h1 style="font-size:70px;">Experience</h1>
 </div>
 
-<div class="feature__wrapper sb-internship">
+<div class="feature__wrapper experience-carousel sb-internship">
   <div class="feature__item--left">
     <div class="archive__item">
       <div class="archive__item-teaser">
-        <img class="sb-carousel__image is-active" src="{{ '/assets/images/sbepc/he1.jpg' | relative_url }}" alt="Shell-and-tube heat exchanger internship graphic" />
-        <img class="sb-carousel__image" src="{{ '/assets/images/sbepc/pv1.jpg' | relative_url }}" alt="Pressure vessel internship graphic" aria-hidden="true" />
-        <img class="sb-carousel__image" src="{{ '/assets/images/sbepc/boltpin1.png' | relative_url }}" alt="Bolt and pin analysis diagram" aria-hidden="true" />
-        <button type="button" class="sb-carousel__arrow sb-carousel__arrow--previous" aria-label="Previous internship photo" hidden>&#10094;</button>
-        <button type="button" class="sb-carousel__arrow sb-carousel__arrow--next" aria-label="Next internship photo" hidden>&#10095;</button>
+        <img class="experience-carousel__image is-active" src="{{ '/assets/images/sbepc/he1.jpg' | relative_url }}" alt="Shell-and-tube heat exchanger internship graphic" />
+        <img class="experience-carousel__image" src="{{ '/assets/images/sbepc/pv1.jpg' | relative_url }}" alt="Pressure vessel internship graphic" aria-hidden="true" />
+        <img class="experience-carousel__image" src="{{ '/assets/images/sbepc/boltpin1.png' | relative_url }}" alt="Bolt and pin analysis diagram" aria-hidden="true" />
+        <button type="button" class="experience-carousel__arrow experience-carousel__arrow--previous" aria-label="Previous S&amp;B image" hidden>&#10094;</button>
+        <button type="button" class="experience-carousel__arrow experience-carousel__arrow--next" aria-label="Next S&amp;B image" hidden>&#10095;</button>
       </div>
       <div class="archive__item-body">
         <h2 class="archive__item-title">S&amp;B Summer 2026 Intern</h2>
@@ -98,6 +98,28 @@ feature_row4:
   </div>
 </div>
 
+<div class="feature__wrapper experience-carousel stein-lab">
+  <div class="feature__item--left">
+    <div class="archive__item">
+      <div class="archive__item-teaser">
+        <img class="experience-carousel__image experience-carousel__image--contain is-active" src="{{ '/assets/images/stein-lab/liquidmetalprinter_1.jpg' | relative_url }}" alt="Stepper-driven syringe assembly for liquid-metal distribution" />
+        <img class="experience-carousel__image experience-carousel__image--contain" src="{{ '/assets/images/stein-lab/pirnn1.jpg' | relative_url }}" alt="Physics-informed neural network research diagram" aria-hidden="true" />
+        <img class="experience-carousel__image" src="{{ '/assets/images/stein-lab/nasawindturbine.jpg' | relative_url }}" alt="Research group at a NASA wind tunnel" aria-hidden="true" />
+        <img class="experience-carousel__image" src="{{ '/assets/images/stein-lab/nasalsms.jpg' | relative_url }}" alt="NASA Langley LSMS crane" aria-hidden="true" />
+        <img class="experience-carousel__image" src="{{ '/assets/images/stein-lab/nasaoutside.jpg' | relative_url }}" alt="Research group outside NASA Langley Research Center" aria-hidden="true" />
+        <button type="button" class="experience-carousel__arrow experience-carousel__arrow--previous" aria-label="Previous Stein Lab image" hidden>&#10094;</button>
+        <button type="button" class="experience-carousel__arrow experience-carousel__arrow--next" aria-label="Next Stein Lab image" hidden>&#10095;</button>
+      </div>
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">Stein Lab @ iCORE</h2>
+        <div class="archive__item-excerpt">
+          <p>At LSU's Stein Lab, I helped design and experimentally test a liquid-metal distribution system, including its stepper-driven syringe subsystem. I made a small contribution to UAV dynamics analysis and prepared figures for a physics-informed neural-network research project. During a week at NASA Langley, I supported input-shaping tests on the LSMS crane and visited research facilities.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 {% include feature_row id="feature_row4" %}
 
-<script src="{{ '/assets/js/sb-carousel.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/experience-carousel.js' | relative_url }}" defer></script>
