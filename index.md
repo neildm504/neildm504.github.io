@@ -115,7 +115,7 @@ feature_row4:
         <h2 class="archive__item-title">Stein Lab @ iCORE</h2>
         <p class="experience-date">March 2025 – Present</p>
         <div class="archive__item-excerpt">
-          <p>At LSU's Stein Lab, I helped design and experimentally test a liquid-metal distribution system, including its stepper-driven syringe subsystem. I contributed to UAV dynamics analysis and prepared figures for a physics-informed neural-network research project. During a week at NASA Langley, I supported input-shaping tests on the LSMS crane and visited research facilities.</p>
+          <p>At LSU's Stein Lab, I helped design and experimentally test a liquid-metal distribution system, including its stepper-driven syringe subsystem. I modeled the helicopter's full dynamics across different initial conditions, including left and right yaw, and prepared figures for a physics-informed neural-network research project. During a week at NASA Langley, I supported input-shaping tests on the LSMS crane and visited research facilities.</p>
         </div>
       </div>
     </div>
