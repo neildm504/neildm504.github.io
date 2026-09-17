@@ -40,6 +40,10 @@
   --experience-photo-scale: 0.75;
 }
 
+.experience-carousel .archive__item {
+  width: 100%;
+}
+
 .experience-carousel .feature__item--left .archive__item-teaser {
   width: calc(100% * var(--experience-photo-scale));
   margin-inline-end: auto;
