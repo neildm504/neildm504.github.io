@@ -4,6 +4,7 @@ title: "Resume"
 permalink: /resume/
 author_profile: true
 toc: false
+classes: wide
 ---
 
 <p>
