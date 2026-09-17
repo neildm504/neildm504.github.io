@@ -59,9 +59,9 @@ plugins:
 
 author:
   name   : "Neil Muralles"
-  avatar : "/assets/images/biopic_real.jpeg"
-  bio    : "I am a Junior at LSU for Mechanical Engineering. The goal of this website is to display my current projects as well as log little bits of information I found helpful. I plan to also add previous projects since freshman year of college."
-  location: "Baton Rouge, LA"
+  avatar : "/assets/images/biopic2.jpg"
+  bio    : "Mechanical engineering senior interested in thermal systems, instrumentation, controls, and engineering design. This site documents my professional experience, research, and engineering projects."
+  location: "Baton Rouge, LA · Open to Relocation"
   email: "neildm9268@gmail.com"
   
   links:
