@@ -152,8 +152,6 @@ feature_row4:
   </div>
 </div>
 
-{% include feature_row id="feature_row4" %}
-
 <section id="contact" class="home-contact">
   <h1 style="font-size:70px;">Contact</h1>
   <p>I'm open to mechanical engineering opportunities and project conversations. Reach me at <a href="mailto:{{ site.email }}">{{ site.email }}</a>, connect on LinkedIn, or view my resume.</p>
