@@ -63,29 +63,6 @@ feature_row4:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
-feature_row5:
-  - image_path: assets/images/sbepc/he1.jpg
-    alt: ""
-    title: "Heat Exchanger Engineering"
-    excerpt: "Worked with shell-and-tube and air-cooled heat exchangers using HTRI XIST and Xace to evaluate thermal performance, pressure drop, flow velocity, and design constraints. Applied API and TEMA guidelines while exploring how geometry and operating conditions influence exchanger performance."
-    url: "/industry/"
-    btn_label: "See more"
-    btn_class: "btn--primary"
-  - image_path: assets/images/sbepc/pv1.jpg
-    alt: ""
-    title: "Pressure Vessel Engineering"
-    excerpt: "Worked with pressure vessel designs in COMPRESS, applying ASME Section VIII requirements to evaluate thickness, nozzles, supports, wind/seismic loading, and other mechanical design considerations."
-    url: "/industry/"
-    btn_label: "See more"
-    btn_class: "btn--primary"  
-  - image_path: assets/images/sbepc/boltpin1.png
-    alt: ""
-    title: "Bolt & Pin Analysis Tool"
-    excerpt: "Developed a custom Excel calculation tool for bolt and pin sizing and analysis, organizing design inputs, load calculations, and engineering checks into a reusable workflow."
-    url: "/industry/"
-    btn_label: "See more"
-    btn_class: "btn--primary"    
-
 ---
 
 <div class="who-am-i">
@@ -93,9 +70,26 @@ feature_row5:
 </div>
 
 <div align="center">
-  <h1 style="font-size:70px;">Professional Experience</h1>
+  <h1 style="font-size:70px;">Experience</h1>
 </div>
 
-{% include feature_row id="feature_row5" type="left" %}
+<div class="feature__wrapper sb-internship">
+  <div class="feature__item--left">
+    <div class="archive__item">
+      <div class="archive__item-teaser">
+        <img src="{{ '/assets/images/sbepc/he1.jpg' | relative_url }}" alt="" />
+        <img src="{{ '/assets/images/sbepc/pv1.jpg' | relative_url }}" alt="" />
+        <img src="{{ '/assets/images/sbepc/boltpin1.png' | relative_url }}" alt="" />
+      </div>
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">S&amp;B Summer 2026 Intern</h2>
+        <div class="archive__item-excerpt">
+          <p>During my summer internship at S&amp;B Engineers &amp; Constructors, I worked on heat exchanger and pressure vessel designs using HTRI and COMPRESS. I also developed an Excel tool for bolt and pin calculations and gained exposure to rotating equipment.</p>
+        </div>
+        <p><a href="{{ '/industry/' | relative_url }}" class="btn btn--primary">See more</a></p>
+      </div>
+    </div>
+  </div>
+</div>
 
 {% include feature_row id="feature_row4" %}

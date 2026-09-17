@@ -34,3 +34,37 @@
 .who-am-i .archive__item-teaser img {
   height: auto;
 }
+
+/* Cycle the three S&B images within a single experience feature. */
+.sb-internship .archive__item-teaser {
+  position: relative;
+}
+
+.sb-internship .archive__item-teaser img {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
+
+.sb-internship .archive__item-teaser img:first-child {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .sb-internship .archive__item-teaser img {
+    animation: sb-image-cycle 15s infinite;
+  }
+
+  .sb-internship .archive__item-teaser img:nth-child(2) {
+    animation-delay: 5s;
+  }
+
+  .sb-internship .archive__item-teaser img:nth-child(3) {
+    animation-delay: 10s;
+  }
+}
+
+@keyframes sb-image-cycle {
+  0%, 29% { opacity: 1; }
+  33%, 100% { opacity: 0; }
+}
