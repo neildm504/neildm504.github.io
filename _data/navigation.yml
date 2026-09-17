@@ -6,8 +6,6 @@ main:
 #  - title: "Tags"
 #    url: /tags/
 
-  - title: "About"
-    url: /about/
   - title: "Experience"
     url: /industry/
   - title: "Projects"
