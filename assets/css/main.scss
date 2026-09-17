@@ -10,13 +10,17 @@
   width: auto;
 }
 
-/* Make teaser images taller */
+/* Make teaser images square regardless of source image ratio */
 .archive__item-teaser {
+  aspect-ratio: 1 / 1;
   max-height: none !important;
+  overflow: hidden;
 }
 
 .archive__item-teaser img {
+  display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
+  object-position: center;
 }
