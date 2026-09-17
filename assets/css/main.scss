@@ -6,26 +6,17 @@
 
 /* Make the logo bigger */
 .site-logo img {
-  max-height: 6rem;  /* Adjust this value to your preference */
-  width: auto;       /* Maintains aspect ratio */
+  max-height: 6rem;
+  width: auto;
 }
 
-
-
-
-/* Make teaser images taller 
+/* Make teaser images taller */
 .archive__item-teaser {
-  max-height: none !important;  /* Remove the height limit 
+  max-height: none !important;
 }
 
 .archive__item-teaser img {
-  width: 100%;                  /* Keep full width 
-  height: auto;                 /* Maintain aspect ratio 
-  object-fit: cover;            /* Crop slightly if needed 
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
-
-
-
-
-
-
