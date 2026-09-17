@@ -37,12 +37,12 @@
 
 /* Experience slideshows. */
 .experience-carousel {
-  --experience-photo-scale: 0.85;
+  --experience-photo-scale: 0.75;
 }
 
-.experience-carousel .feature__item--right .archive__item-teaser {
+.experience-carousel .feature__item--left .archive__item-teaser {
   width: calc(100% * var(--experience-photo-scale));
-  margin-inline-start: auto;
+  margin-inline-end: auto;
 }
 
 .experience-carousel .archive__item-body {
@@ -123,7 +123,7 @@
 }
 
 @media (min-width: 37.5em) {
-  .experience-carousel .feature__item--right .archive__item-teaser {
+  .experience-carousel .feature__item--left .archive__item-teaser {
     width: calc(40.6779661017% * var(--experience-photo-scale));
   }
 }

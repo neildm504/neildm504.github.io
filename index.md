@@ -78,7 +78,7 @@ feature_row4:
 </div>
 
 <div class="feature__wrapper experience-carousel sb-internship">
-  <div class="feature__item--right">
+  <div class="feature__item--left">
     <div class="archive__item">
       <div class="archive__item-teaser">
         <img class="experience-carousel__image is-active" src="{{ '/assets/images/sbepc/he1.jpg' | relative_url }}" alt="Shell-and-tube heat exchanger internship graphic" />
@@ -100,7 +100,7 @@ feature_row4:
 </div>
 
 <div class="feature__wrapper experience-carousel stein-lab">
-  <div class="feature__item--right">
+  <div class="feature__item--left">
     <div class="archive__item">
       <div class="archive__item-teaser">
         <img class="experience-carousel__image experience-carousel__image--contain is-active" src="{{ '/assets/images/stein-lab/liquidmetalprinter_1.jpg' | relative_url }}" alt="Stepper-driven syringe assembly for liquid-metal distribution" />
@@ -115,8 +115,38 @@ feature_row4:
         <h2 class="archive__item-title">Stein Lab @ iCORE</h2>
         <p class="experience-date">March 2025 – Present</p>
         <div class="archive__item-excerpt">
-          <p>At LSU's Stein Lab, I helped design and experimentally test a liquid-metal distribution system, including its stepper-driven syringe subsystem. I made a small contribution to UAV dynamics analysis and prepared figures for a physics-informed neural-network research project. During a week at NASA Langley, I supported input-shaping tests on the LSMS crane and visited research facilities.</p>
+          <p>At LSU's Stein Lab, I helped design and experimentally test a liquid-metal distribution system, including its stepper-driven syringe subsystem. I contributed to UAV dynamics analysis and prepared figures for a physics-informed neural-network research project. During a week at NASA Langley, I supported input-shaping tests on the LSMS crane and visited research facilities.</p>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div align="center">
+  <h1 style="font-size:70px;">Projects</h1>
+</div>
+
+<div class="feature__wrapper experience-carousel projects-showcase">
+  <div class="feature__item--left">
+    <div class="archive__item">
+      <div class="archive__item-teaser">
+        {% assign project_carousel_items = site.projects | sort: 'date' | reverse %}
+        {% assign project_slide_index = 0 %}
+        {% for project in project_carousel_items %}
+          {% if project.header.teaser and project.header.teaser != '' %}
+            <img class="experience-carousel__image{% if project_slide_index == 0 %} is-active{% endif %}" src="{{ project.header.teaser | relative_url }}" alt="{{ project.title | escape }}"{% unless project_slide_index == 0 %} aria-hidden="true"{% endunless %} />
+            {% assign project_slide_index = project_slide_index | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+        <button type="button" class="experience-carousel__arrow experience-carousel__arrow--previous" aria-label="Previous project image" hidden>&#10094;</button>
+        <button type="button" class="experience-carousel__arrow experience-carousel__arrow--next" aria-label="Next project image" hidden>&#10095;</button>
+      </div>
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">Research &amp; Personal Projects</h2>
+        <div class="archive__item-excerpt">
+          <p>I enjoy contributing to research projects and working on personal builds that let me design, test, and improve real hardware.</p>
+        </div>
+        <p><a href="{{ '/projects/' | relative_url }}" class="btn btn--primary">Explore projects</a></p>
       </div>
     </div>
   </div>
