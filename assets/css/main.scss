@@ -36,6 +36,26 @@
 }
 
 /* Experience slideshows. */
+.experience-carousel {
+  --experience-photo-scale: 0.85;
+}
+
+.experience-carousel .feature__item--right .archive__item-teaser {
+  width: calc(100% * var(--experience-photo-scale));
+  margin-inline-start: auto;
+}
+
+.experience-carousel .archive__item-body {
+  text-align: start;
+}
+
+.experience-carousel .experience-date {
+  margin: -0.25em 0 0.75em;
+  font-size: 0.85em;
+  font-style: italic;
+  font-weight: 400;
+}
+
 .experience-carousel .archive__item-teaser {
   position: relative;
   background: #f5f5f5;
@@ -100,6 +120,12 @@
 
 .stein-lab {
   margin-top: 1.5rem;
+}
+
+@media (min-width: 37.5em) {
+  .experience-carousel .feature__item--right .archive__item-teaser {
+    width: calc(40.6779661017% * var(--experience-photo-scale));
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

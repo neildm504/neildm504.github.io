@@ -78,7 +78,7 @@ feature_row4:
 </div>
 
 <div class="feature__wrapper experience-carousel sb-internship">
-  <div class="feature__item--left">
+  <div class="feature__item--right">
     <div class="archive__item">
       <div class="archive__item-teaser">
         <img class="experience-carousel__image is-active" src="{{ '/assets/images/sbepc/he1.jpg' | relative_url }}" alt="Shell-and-tube heat exchanger internship graphic" />
@@ -89,6 +89,7 @@ feature_row4:
       </div>
       <div class="archive__item-body">
         <h2 class="archive__item-title">S&amp;B Summer 2026 Intern</h2>
+        <p class="experience-date">June – August 2026</p>
         <div class="archive__item-excerpt">
           <p>During my summer internship at S&amp;B Engineers &amp; Constructors, I worked on heat exchanger and pressure vessel designs using HTRI and COMPRESS. I also developed an Excel tool for bolt and pin calculations and gained exposure to rotating equipment.</p>
         </div>
@@ -99,7 +100,7 @@ feature_row4:
 </div>
 
 <div class="feature__wrapper experience-carousel stein-lab">
-  <div class="feature__item--left">
+  <div class="feature__item--right">
     <div class="archive__item">
       <div class="archive__item-teaser">
         <img class="experience-carousel__image experience-carousel__image--contain is-active" src="{{ '/assets/images/stein-lab/liquidmetalprinter_1.jpg' | relative_url }}" alt="Stepper-driven syringe assembly for liquid-metal distribution" />
@@ -112,6 +113,7 @@ feature_row4:
       </div>
       <div class="archive__item-body">
         <h2 class="archive__item-title">Stein Lab @ iCORE</h2>
+        <p class="experience-date">March 2025 – Present</p>
         <div class="archive__item-excerpt">
           <p>At LSU's Stein Lab, I helped design and experimentally test a liquid-metal distribution system, including its stepper-driven syringe subsystem. I made a small contribution to UAV dynamics analysis and prepared figures for a physics-informed neural-network research project. During a week at NASA Langley, I supported input-shaping tests on the LSMS crane and visited research facilities.</p>
         </div>
