@@ -88,7 +88,9 @@ feature_row5:
 
 ---
 
-{% include feature_row id="feature_row"  type="left" %}
+<div class="who-am-i">
+  {% include feature_row id="feature_row" type="left" %}
+</div>
 
 <div align="center">
   <h1 style="font-size:70px;">Professional Experience</h1>
@@ -97,4 +99,3 @@ feature_row5:
 {% include feature_row id="feature_row5" type="left" %}
 
 {% include feature_row id="feature_row4" %}
-

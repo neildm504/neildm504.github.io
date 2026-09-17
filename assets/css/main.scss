@@ -24,3 +24,13 @@
   object-fit: cover;
   object-position: center;
 }
+
+/* Keep the Who am I photo at its natural aspect ratio. */
+.who-am-i .archive__item-teaser {
+  aspect-ratio: auto;
+  overflow: visible;
+}
+
+.who-am-i .archive__item-teaser img {
+  height: auto;
+}
