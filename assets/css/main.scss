@@ -25,6 +25,13 @@
   object-position: center;
 }
 
+/* Preserve the full diagrams and portrait apparatus photo in square teasers. */
+.archive__item-teaser img[src$="/me4683/simulink-block-diagram.png"],
+.archive__item-teaser img[src$="/stein-lab/liquidmetalprinter_1.jpg"] {
+  object-fit: contain;
+  background: #f5f5f5;
+}
+
 /* Keep the Who am I photo at its natural aspect ratio. */
 .who-am-i .archive__item-teaser {
   aspect-ratio: auto;
