@@ -18,6 +18,12 @@ header:
 
 ## Smartphone Impact Data Tester Prototype
 
+{% include figure
+   image_path="/assets/images/freshmen-design/impacttesterExcel.jpg"
+   alt="screenshot of excel gui"
+   caption="One of the final iterations of the excel spreadsheet used to display kinematic data"
+%}
+
 Created the structure of an experimentally sound and reusable impact data tester, using internal sensors within a smartphone as a common means of gathering accurate data.
 
 Structure: Made out of 1" PVC piping, it uses joints and pvc glue to stay rigid. 
@@ -27,6 +33,17 @@ Structure: Made out of 1" PVC piping, it uses joints and pvc glue to stay rigid.
 Data: Using the phyphox app, we created an easy-to-use method of gathering data for the acceleration, velocity, and position of the smartphone as it falls. 
 - Utilized accelerometers and LiDAR sensors to collect kinematic data
 - Formatted an excel document to process raw data into easy-to-read graphs
+
+<iframe
+  src="{{ '/assets/pdfs/impacttesterpdf.pdf' | relative_url }}#view=FitH"
+  title="Impact Tester Presentation"
+  width="60%"
+  height="960"
+  loading="lazy"
+  style="border: 0; max-width: 100%;"
+>
+  <a href="{{ '/assets/pdfs/impacttesterpdf.pdf' | relative_url }}">Impact Tester Presentation</a>
+</iframe>
 
 
 ## Functional Decomposition and CAD Recreation of Electric Garden Tool
@@ -38,12 +55,15 @@ Data: Using the phyphox app, we created an easy-to-use method of gathering data 
 %}
 
 With gardening tools being such a common household item, the engineering behind these tools are often overlooked. As part of a freshmen mechanical engineering design course (ME1212), I along with three other group members were tasked with functionally decomposing a SunJoe SBJ601E All-Electric Leaf Blower in order to provide an absolute understanding of its functioning. Our project had 4 stages:
-1. Top-to-bottom analysis of the device. Identifying all steps of the leaf blower's operation, having sub-steps to assist in the explanation of form, fit, and function for each of the device's components
-2. Precision measuring and CAD design of each component.
+1) Top-to-bottom analysis of the device. Identifying all steps of the leaf blower's operation, having sub-steps to assist in the explanation of form, fit, and function for each of the device's components
+2) Precision measuring and CAD design of each component.
+
 {% include figure
-image_path="/assets/images/freshmen-design/gardentoolImpeller.jpg"
-alt="Fusion360 render of completed assembly"
-caption="Render of the final assembly for our Fusion360 designed leaf blower"
+   class="align-center diyosc-figure"
+   image_path="/assets/images/freshmen-design/gardentoolImpeller.jpg"
+   alt="Fusion360 render of completed assembly"
+   caption="Render of the final assembly for our Fusion360 designed leaf blower"
 %}
-3. Finalization of CAD assembly and Design Report.
-4. Proposition of design improvements.
+
+3) Finalization of CAD assembly and Design Report.
+4) Proposition of design improvements.
