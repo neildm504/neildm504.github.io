@@ -10,6 +10,16 @@
   width: auto;
 }
 
+/* Match the original oscilloscope project figure sizes. */
+.diyosc-figure {
+  width: 100%;
+  max-width: 400px;
+}
+
+.diyosc-figure--lead {
+  max-width: 500px;
+}
+
 /* Make teaser images square regardless of source image ratio */
 .archive__item-teaser {
   aspect-ratio: 1 / 1;
