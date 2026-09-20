@@ -21,8 +21,7 @@ gallery:
 ---
 
 {% include figure image_path="/assets/images/freshmen-design/gardentoolRender.jpg" alt="leafblower render" %}
-
-Here lies documentation for the group projects completed in my first two semesters of college 2023 thru 2024. 
+Here lies documentation for the group projects completed in my first two semesters of college 2023 thru 2024. I really enjoyed these projects as my introduction to the mechanical engineering design process. They built my foundation in project documentation, CAD design, and presentation.
 
 ## Flywheel/Impeller “Mechanical Battery”
 
@@ -82,8 +81,8 @@ With gardening tools being such a common household item, the engineering behind 
 %}
 
 Our project had 4 stages:
-1) Top-to-bottom analysis of the device. Identifying all steps of the leaf blower's operation, having sub-steps to assist in the explanation of form, fit, and function for each of the device's components
-2) Precision measuring and CAD design of each component.
-3) Finalization of CAD assembly and Design Report.
-4) Proposition of design improvements.
+1. Top-to-bottom analysis of the device. Identifying all steps of the leaf blower's operation, having sub-steps to assist in the explanation of form, fit, and function for each of the device's components
+2. Precision measuring and CAD design of each component.
+3. Finalization of CAD assembly and Design Report.
+4. Proposition of design improvements.
    
