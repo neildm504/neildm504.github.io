@@ -22,6 +22,8 @@ gallery:
 
 {% include figure image_path="/assets/images/freshmen-design/gardentoolRender.jpg" alt="leafblower render" %}
 
+Here lies documentation for the group projects completed in my first two semesters of college 2023 thru 2024. 
+
 ## Flywheel/Impeller “Mechanical Battery”
 
 {% include gallery id="gallery" layout="half" caption="Idle Energy Harvester Photos" %}
@@ -70,9 +72,7 @@ View the presentation here:
    caption="Render of the final assembly for our Fusion360 designed leaf blower"
 %}
 
-With gardening tools being such a common household item, the engineering behind these tools are often overlooked. As part of a freshmen mechanical engineering design course (ME1212), I along with three other group members were tasked with functionally decomposing a SunJoe SBJ601E All-Electric Leaf Blower in order to provide an absolute understanding of its functioning. Our project had 4 stages:
-1) Top-to-bottom analysis of the device. Identifying all steps of the leaf blower's operation, having sub-steps to assist in the explanation of form, fit, and function for each of the device's components
-2) Precision measuring and CAD design of each component.
+With gardening tools being such a common household item, the engineering behind these tools are often overlooked. As part of a freshmen mechanical engineering design course (ME1212), I along with three other group members were tasked with functionally decomposing a SunJoe SBJ601E All-Electric Leaf Blower in order to provide an absolute understanding of its functioning.
 
 {% include figure
    class="align-center diyosc-figure"
@@ -81,5 +81,9 @@ With gardening tools being such a common household item, the engineering behind 
    caption="Render of the final assembly for our Fusion360 designed leaf blower"
 %}
 
+Our project had 4 stages:
+1) Top-to-bottom analysis of the device. Identifying all steps of the leaf blower's operation, having sub-steps to assist in the explanation of form, fit, and function for each of the device's components
+2) Precision measuring and CAD design of each component.
 3) Finalization of CAD assembly and Design Report.
 4) Proposition of design improvements.
+   
