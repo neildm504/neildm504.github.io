@@ -7,7 +7,7 @@ toc_sticky: true
 toc_icon: "swatchbook"
 author_profile: true
 header:
-  teaser: 
+  teaser: /assets/images/freshmen-design/gardentoolRender.jpg
 
 gallery:
   - url: /assets/images/freshmen-design/idleenergyDesign.jpg
@@ -19,6 +19,8 @@ gallery:
     alt: "CAD screenshot of Ratchet"
     title: "Fusion design of ratcheting system. Printed in Resin for high detail."
 ---
+
+{% include figure image_path="/assets/images/freshmen-design/gardentoolRender.jpg" alt="leafblower render" %}
 
 ## Flywheel/Impeller “Mechanical Battery”
 
