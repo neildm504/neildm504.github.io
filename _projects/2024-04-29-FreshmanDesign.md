@@ -8,9 +8,21 @@ toc_icon: "swatchbook"
 author_profile: true
 header:
   teaser: 
+
+gallery:
+  - url: /assets/images/freshmen-design/idleenergyDesign.jpg
+    image_path: /assets/images/freshmen-design/idleenergyDesign.jpg
+    alt: "Final Design"
+    title: "Final design photo showcasing the flywheel and belt drive."
+  - url: /assets/images/freshmen-design/idleenergyRatchet.jpg
+    image_path: /assets/images/freshmen-design/idleenergyRatchet.jpg
+    alt: "CAD screenshot of Ratchet"
+    title: "Fusion design of ratcheting system. Printed in Resin for high detail."
 ---
 
 ## Flywheel/Impeller “Mechanical Battery”
+
+{% include gallery id="gallery" layout="half" caption="Idle Energy Harvester Photos" %}
 
 - In a team of six, created a low-friction flywheel connected to an impeller via a belt drive that stores and harnesses unused energy from a door opening in order to increase airflow in crowded spaces
 - Optimized 3D printed components in terms of volume, dimensions, and structure in order to maximize cost efficiency, strength, and print quality
@@ -34,11 +46,13 @@ Data: Using the phyphox app, we created an easy-to-use method of gathering data 
 - Utilized accelerometers and LiDAR sensors to collect kinematic data
 - Formatted an excel document to process raw data into easy-to-read graphs
 
+View the presentation here: 
+
 <iframe
   src="{{ '/assets/pdfs/impacttesterpdf.pdf' | relative_url }}#view=FitH"
   title="Impact Tester Presentation"
-  width="60%"
-  height="960"
+  width="100%"
+  height="400"
   loading="lazy"
   style="border: 0; max-width: 100%;"
 >
