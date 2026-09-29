@@ -33,17 +33,13 @@ The thermal response is influenced by:
 
 Transient conduction within the sphere is described by the heat equation:
 
-[
-\rho c_p \frac{\partial T}{\partial t} = k \nabla^2 T
-]
+<p style="text-align: center;"><strong>ρc<sub>p</sub> ∂T/∂t = k∇²T</strong></p>
 
 At the outer surface, conduction within the sphere is coupled to forced convection in the surrounding air:
 
-[
--k \nabla T \cdot \mathbf{n} = h(T_s - T_\infty)
-]
+<p style="text-align: center;"><strong>−k∇T · n = h(T<sub>s</sub> − T<sub>∞</sub>)</strong></p>
 
-Here, (\rho) is density, (c_p) is specific heat, (k) is thermal conductivity, (h) is the convective heat transfer coefficient, (T_s) is the sphere's surface temperature, and (T_\infty) is the free-stream air temperature.
+Here, ρ is density, c<sub>p</sub> is specific heat, k is thermal conductivity, h is the convective heat transfer coefficient, T<sub>s</sub> is the sphere's surface temperature, and T<sub>∞</sub> is the free-stream air temperature.
 
 ## Simulation Approach
 
