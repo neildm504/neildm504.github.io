@@ -21,29 +21,29 @@ header:
 {% include figure
    class="align-center diyosc-figure"
    image_path="/assets/images/april2026/diyosc_layout.jpg"
-   alt="Final assembly"
-   caption="Finished DSO183 Oscilloscope (left) and XR2206 Waveform Generator (right)"
+   alt="base dso183 board and all components"
+   caption="Out the box DSO183 and all resistors, capacitors, diodes, and switches"
 %}
 
 {% include figure
    class="align-center diyosc-figure"
    image_path="/assets/images/april2026/diyosc_sort.jpg"
-   alt="Final assembly"
-   caption="Finished DSO183 Oscilloscope (left) and XR2206 Waveform Generator (right)"
+   alt="organized resistors"
+   caption="Resistors organized by resistance using a multimeter"
 %}
 
 {% include figure
    class="align-center diyosc-figure"
    image_path="/assets/images/april2026/diyosc_resistors.jpg"
-   alt="Final assembly"
-   caption="Finished DSO183 Oscilloscope (left) and XR2206 Waveform Generator (right)"
+   alt="resistors soldered on"
+   caption="First round of resistors soldered"
 %}
 
 {% include figure
    class="align-center diyosc-figure"
    image_path="/assets/images/april2026/diyosc_finished.jpg"
-   alt="Final assembly"
-   caption="Finished DSO183 Oscilloscope (left) and XR2206 Waveform Generator (right)"
+   alt="everything soldered"
+   caption="Remaining components soldered"
 %}
 
 {% include figure
